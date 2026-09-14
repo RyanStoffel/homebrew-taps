@@ -6,6 +6,7 @@ Homebrew tap for Ryan Stoffel's personal macOS software: Caffeine, Tidy, Forge, 
 
 ```sh
 brew tap ryanstoffel/taps
+brew trust ryanstoffel/taps
 brew install caffeine
 brew install tidy
 brew install forge
@@ -22,6 +23,10 @@ brew install ryanstoffel/taps/forge
 brew install ryanstoffel/taps/cadence
 brew install --cask ryanstoffel/taps/photon
 ```
+
+`brew trust` is needed on Homebrew 7 and later before short names (and `brew upgrade`)
+can load formulae and casks from a third-party tap; the fully qualified names below work
+without it.
 
 None of these apps are notarized. On first launch, macOS will block them —
 go to **System Settings > Privacy & Security**, find the message about the
