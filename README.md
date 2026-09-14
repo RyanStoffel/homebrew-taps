@@ -1,6 +1,6 @@
 # homebrew-taps
 
-Homebrew tap for Ryan Stoffel's personal macOS software: Caffeine, Tidy, Forge, and Cadence.
+Homebrew tap for Ryan Stoffel's personal macOS software: Caffeine, Tidy, Forge, Cadence, and Photon.
 
 ## Install
 
@@ -10,6 +10,7 @@ brew install caffeine
 brew install tidy
 brew install forge
 brew install cadence
+brew install --cask photon
 ```
 
 or directly:
@@ -19,6 +20,7 @@ brew install ryanstoffel/taps/caffeine
 brew install ryanstoffel/taps/tidy
 brew install ryanstoffel/taps/forge
 brew install ryanstoffel/taps/cadence
+brew install --cask ryanstoffel/taps/photon
 ```
 
 None of these apps are notarized. On first launch, macOS will block them —
@@ -33,6 +35,7 @@ app, and click **Open Anyway**.
 | [Tidy](https://github.com/RyanStoffel/tidy) | Menu bar app that files your Desktop and Downloads by rule |
 | [Forge](https://github.com/RyanStoffel/forge) | Native terminal, editor, Git, and coding-agent workspace |
 | Cadence | Menu bar Pomodoro timer with labeled work logging |
+| [Photon](https://github.com/RyanStoffel/photon) | Fast, minimal launcher: apps, clipboard history, notes, file search, keybinds |
 
 This tap replaces the former per-app tap repos (`homebrew-tap`, `homebrew-forge`),
 which are retired in favor of this single repo.
