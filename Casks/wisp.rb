@@ -1,8 +1,8 @@
 cask "wisp" do
   arch arm: "arm64"
 
-  version "0.1.0"
-  sha256 "a24e5e1c7ca3e2f375c252e44f876ef948298f6b6166c9f9648876d7d2e39782"
+  version "0.2.0"
+  sha256 "4a980ac0fa24a39ac96b18322fd223e9520692080a85bed6341b03944302a1a2"
 
   url "https://github.com/ryan-stoffel/wisp/releases/download/v#{version}/wisp-#{version}-#{arch}.zip"
   name "Wisp"
