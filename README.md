@@ -1,6 +1,6 @@
 # homebrew-taps
 
-Homebrew tap for Ryan Stoffel's personal macOS software: Caffeine, Tidy, Forge, Cadence, Photon, and Hush.
+Homebrew tap for Ryan Stoffel's personal macOS software: Caffeine, Tidy, Cadence, Photon, and Hush.
 
 ## Install
 
@@ -9,7 +9,6 @@ brew tap ryan-stoffel/taps
 brew trust ryan-stoffel/taps          # Homebrew 7+
 brew install caffeine
 brew install tidy
-brew install forge
 brew install cadence
 brew install --cask photon
 brew install --cask ryan-stoffel/taps/hush
@@ -20,7 +19,6 @@ or directly:
 ```sh
 brew install ryan-stoffel/taps/caffeine
 brew install ryan-stoffel/taps/tidy
-brew install ryan-stoffel/taps/forge
 brew install ryan-stoffel/taps/cadence
 brew install --cask ryan-stoffel/taps/photon
 brew install --cask ryan-stoffel/taps/hush
@@ -59,7 +57,6 @@ example `xattr -dr com.apple.quarantine /Applications/Hush.app` (Homebrew 7 remo
 | --- | --- |
 | [Caffeine](https://github.com/ryan-stoffel/caffeine) | Menu bar app that keeps your display awake |
 | [Tidy](https://github.com/ryan-stoffel/tidy) | Menu bar app that files your Desktop and Downloads by rule |
-| [Forge](https://github.com/ryan-stoffel/forge) | Native terminal, editor, Git, and coding-agent workspace |
 | Cadence | Menu bar Pomodoro timer with labeled work logging |
 | [Photon](https://github.com/ryan-stoffel/photon) | Fast, minimal launcher: apps, clipboard history, notes, file search, keybinds |
 | [Hush](https://github.com/ryan-stoffel/hush) | Menu bar voice dictation that works in every app, on-device by default |
